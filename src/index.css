@@ -234,3 +234,10 @@ body {
   font-family: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     sans-serif;
 }
+
+/* Premium Ethereal Sanctuary glass panel style */
+.glass-panel-warm {
+  background: rgba(236, 226, 202, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}

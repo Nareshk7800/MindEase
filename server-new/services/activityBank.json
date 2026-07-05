@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sad_journal",
+    "mood_tag": "sad",
+    "activity_text": "Guided journaling: Write down 3 small things that went okay or brought a tiny smile today.",
+    "duration_minutes": 5,
+    "energy_level_required": 1,
+    "category": "cognitive"
+  },
+  {
+    "id": "sad_music",
+    "mood_tag": "sad",
+    "activity_text": "Curated playlist check: Put on your favorite upbeat song or watch a short comedy clip.",
+    "duration_minutes": 10,
+    "energy_level_required": 2,
+    "category": "rest"
+  },
+  {
+    "id": "sad_friend",
+    "mood_tag": "sad",
+    "activity_text": "Reach out to a friendly face: send a text or call someone you trust to say hello.",
+    "duration_minutes": 5,
+    "energy_level_required": 2,
+    "category": "social"
+  },
+  {
+    "id": "sad_movement",
+    "mood_tag": "sad",
+    "activity_text": "Light physical grounding: Take a 10-minute mindful walk around the room or stretch.",
+    "duration_minutes": 10,
+    "energy_level_required": 3,
+    "category": "physical"
+  },
+  {
+    "id": "angry_breath",
+    "mood_tag": "angry",
+    "activity_text": "Guided box breathing exercise: Inhale 4s, hold 4s, exhale 4s, hold 4s. Repeat 3 times.",
+    "duration_minutes": 3,
+    "energy_level_required": 1,
+    "category": "rest"
+  },
+  {
+    "id": "angry_vent",
+    "mood_tag": "angry",
+    "activity_text": "Write it out, don't send it: Vent your raw thoughts into a text box, then clear it completely.",
+    "duration_minutes": 5,
+    "energy_level_required": 2,
+    "category": "cognitive"
+  },
+  {
+    "id": "angry_workout",
+    "mood_tag": "angry",
+    "activity_text": "Physical energy release: Do a quick burst of jumping jacks or press cold water on your hands.",
+    "duration_minutes": 5,
+    "energy_level_required": 4,
+    "category": "physical"
+  },
+  {
+    "id": "stressed_meditate",
+    "mood_tag": "stressed",
+    "activity_text": "Short meditation session: Follow a 2-minute breath grounding cycle to quiet your focus.",
+    "duration_minutes": 2,
+    "energy_level_required": 1,
+    "category": "rest"
+  },
+  {
+    "id": "stressed_todo",
+    "mood_tag": "stressed",
+    "activity_text": "Break it down: Generate a mini to-do list containing ONLY the next single smallest step.",
+    "duration_minutes": 5,
+    "energy_level_required": 2,
+    "category": "cognitive"
+  },
+  {
+    "id": "stressed_grounding",
+    "mood_tag": "stressed",
+    "activity_text": "Perform the 5-4-3-2-1 grounding technique to refocus on your current surroundings.",
+    "duration_minutes": 3,
+    "energy_level_required": 1,
+    "category": "cognitive"
+  },
+  {
+    "id": "happy_reinforce",
+    "mood_tag": "happy",
+    "activity_text": "Save the spark: Note down exactly what made today good so you can recall it later.",
+    "duration_minutes": 3,
+    "energy_level_required": 2,
+    "category": "cognitive"
+  },
+  {
+    "id": "happy_share",
+    "mood_tag": "happy",
+    "activity_text": "Ripple the joy: Message a friend to share your good mood or log a snapshot of this moment.",
+    "duration_minutes": 5,
+    "energy_level_required": 3,
+    "category": "social"
+  },
+  {
+    "id": "tired_nap",
+    "mood_tag": "tired",
+    "activity_text": "Set a power nap timer: take a 15-20 minute restorative shut-eye break.",
+    "duration_minutes": 20,
+    "energy_level_required": 1,
+    "category": "rest"
+  },
+  {
+    "id": "tired_hydrate",
+    "mood_tag": "tired",
+    "activity_text": "Hydrate and refresh: Drink a large glass of cold water and stretch your shoulders.",
+    "duration_minutes": 2,
+    "energy_level_required": 1,
+    "category": "physical"
+  },
+  {
+    "id": "neutral_reflect",
+    "mood_tag": "neutral",
+    "activity_text": "Maintain your space: Take a 3-minute pause to sit in silence and enjoy this calm state.",
+    "duration_minutes": 3,
+    "energy_level_required": 1,
+    "category": "rest"
+  }
+]
