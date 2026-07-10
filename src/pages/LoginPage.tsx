@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { loginWithEmailPassword } from "../auth.js";
 import { signInWithGoogle } from "../firebase/googleAuth";
+import { firebaseAuthErrorMessage } from "../firebase/phoneAuth";
 
 function GoogleMark({ className }: { className?: string }) {
   return (
@@ -116,9 +117,7 @@ const LoginPage: React.FC = () => {
       );
       navigate("/home", { replace: true });
     } catch (e) {
-      const msg =
-        e instanceof Error ? e.message : "Google sign-in failed. Please try again.";
-      setError(msg);
+      setError(firebaseAuthErrorMessage(e));
     } finally {
       setGoogleBusy(false);
     }

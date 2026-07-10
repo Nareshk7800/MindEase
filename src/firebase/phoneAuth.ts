@@ -102,6 +102,8 @@ export function firebaseAuthErrorMessage(error: unknown): string {
         return "Sign-in was cancelled.";
       case "auth/account-exists-with-different-credential":
         return "This email is already used with another sign-in method.";
+      case "auth/unauthorized-domain":
+        return "This domain is not authorized in Firebase. Please add this deployment URL to the 'Authorized domains' list in your Firebase Console (Authentication > Settings > Authorized domains).";
       default:
         break;
     }
@@ -110,6 +112,9 @@ export function firebaseAuthErrorMessage(error: unknown): string {
     const msg = error.message;
     if (msg.includes("billing-not-enabled") || msg.includes("auth/billing-not-enabled")) {
       return BILLING_NOT_ENABLED_MSG;
+    }
+    if (msg.includes("unauthorized-domain") || msg.includes("auth/unauthorized-domain")) {
+      return "This domain is not authorized in Firebase. Please add this deployment URL to the 'Authorized domains' list in your Firebase Console (Authentication > Settings > Authorized domains).";
     }
     return msg;
   }
